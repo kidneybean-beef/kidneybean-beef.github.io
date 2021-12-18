@@ -1085,7 +1085,15 @@
       "category" : "Blog",
       
       "url"      : "https://kidneybean-beef.github.io//2021/10/25/the-wisdom-of-life/",
-      "keywords" : "叔本华, 人生的智慧"
+      "keywords" : "blog"
+    } ,
+  
+    {
+      "title"    : "Blog Establishment",
+      "category" : "learnToBlog",
+      
+      "url"      : "https://kidneybean-beef.github.io//2021/12/18/blog-establish/",
+      "keywords" : "keyword1, keyword2"
     } ,
   
     {
