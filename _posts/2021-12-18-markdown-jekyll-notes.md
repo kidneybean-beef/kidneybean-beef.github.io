@@ -16,7 +16,7 @@ Solution[^1]:
 
 {% raw %}
 
-```html
+```cpp
 {% raw %}
 code block
 {% endraw %}
