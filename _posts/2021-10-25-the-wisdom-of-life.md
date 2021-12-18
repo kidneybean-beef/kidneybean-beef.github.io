@@ -3,7 +3,7 @@ layout: post
 title: 读叔本华《人生的智慧》
 categories: Blog
 description: 主要是一些摘录。
-keywords: 叔本华, 人生的智慧
+keywords: blog
 ---
 
 最近读完了这本小书，想写点什么，但又似乎暂时表达不出，先挖个读书笔记的坑在这里，后面有所感了也许会填上。
