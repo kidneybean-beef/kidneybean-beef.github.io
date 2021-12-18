@@ -16,7 +16,7 @@ Solution[^1]:
 
 {% raw %}
 
-```jekyll
+```html
 {% raw %}
 code block
 {% endraw %}
