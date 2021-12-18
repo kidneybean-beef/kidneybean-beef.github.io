@@ -17,7 +17,7 @@ Besides this, I met a problem when I edited something, and pushed to git, an err
 
 The solution is adding this
 
-```yaml
+```yml
 
 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
