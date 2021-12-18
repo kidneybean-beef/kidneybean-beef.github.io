@@ -1097,6 +1097,14 @@
     } ,
   
     {
+      "title"    : "problem in Markdown with Jekyll",
+      "category" : "markdown",
+      
+      "url"      : "https://kidneybean-beef.github.io//2021/12/18/markdown-jekyll-notes/",
+      "keywords" : "markdown, jekyll"
+    } ,
+  
+    {
       "title"    : "JSON",
       "category" : "",
       
