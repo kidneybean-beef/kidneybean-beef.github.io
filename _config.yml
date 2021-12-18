@@ -6,11 +6,11 @@ url: https://kidneybean-beef.github.io/
 date_format: "ordinal"
 title: a bbb place
 subtitle: "the flee of a civil cow-horse"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+description: "one of Xin's bbb place "
+keywords: bbb
 timezone: Europe/Munich
 encoding: "utf-8"
-repository: mzlogin/mzlogin.github.io
+repository: kidneybean-beef/kidneybean-beef.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
