@@ -17,8 +17,8 @@ Besides this, I met a problem when I edited something, and pushed to git, an err
 
 The solution is adding this
 
-```cpp
-GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```yml
+GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
 ```
 
 in the last part of file: .github/workflows/ci.yml[^1].
