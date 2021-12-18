@@ -23,5 +23,5 @@ GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 in the last part of file: .github/workflows/ci.yml[^1].
 
-
+-
 [^1]:<https://hbuecx.com/post/github-action-gou-jian-shi-bai-chu-li/>
