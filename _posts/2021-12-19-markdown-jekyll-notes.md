@@ -11,6 +11,7 @@ keywords: markdown, jekyll
 Problem:
 when using braces in Markdown with Jekyll, the braces and the contents inside the braces will not show.
 
+
 Solution[^1]:
 
 ```jekyll
