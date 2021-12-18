@@ -17,9 +17,11 @@ Besides this, I met a problem when I edited something, and pushed to git, an err
 
 The solution is adding this
 
+{% raw %}
 ```yml
-GITHUB_TOKEN: $%7b%7b secrets.GITHUB_TOKEN %7d%7d
+GITHUB_TOKEN: {{ secrets.GITHUB_TOKEN }}
 ```
+{% endraw %}
 
 in the last part of file: .github/workflows/ci.yml[^1].
 
