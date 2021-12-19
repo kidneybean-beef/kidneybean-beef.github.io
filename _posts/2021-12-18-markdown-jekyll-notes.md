@@ -25,7 +25,7 @@ code block
 2. when using {% raw %} in a code block inside {% raw %}, this md can not be built by Jekyll.
 
    Solution[^2]:
-Put the first {% inside a raw tag, so escaping it avoids the rest being processed:
+Put the first {% raw %}{%{% endraw %} inside a raw tag, so escaping it avoids the rest being processed:
 
 ```cpp
 {% raw %}{%{% endraw %} endraw %} raw %}
