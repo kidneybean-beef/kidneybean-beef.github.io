@@ -26,9 +26,9 @@ code block
 Solution[^2]:
 
 ```cpp
-{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} raw %}
-code block
 {% raw %}{%{% endraw %} raw %}{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} raw %}
+code block
+{% raw %}{%{% endraw %} raw %}{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} endraw %}
 ```
 
 [^1]:<https://www.tomordonez.com/curly-braces-markdown-jekyll/>
