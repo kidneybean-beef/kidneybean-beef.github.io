@@ -14,7 +14,7 @@ Problem:
 
 Solution[^1]:
 
-```yml
+```cpp
 {% raw %}{%{% endraw %} raw %}
 code block
 {% raw %}{%{% endraw %} endraw %}
@@ -27,11 +27,10 @@ Solution[^2]:
 
 {% raw %}
 
-```yml
+```cpp
 
-{{ "{{ "{% raw " }}%}" }}
+{% raw %}{%{% endraw %} raw %}{%{% raw %}{%{% endraw %} endraw %} raw %}
 code block
-{{ "{% endraw " }}%}
 ```
 
 {% endraw %}
