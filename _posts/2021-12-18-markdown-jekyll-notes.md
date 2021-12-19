@@ -29,6 +29,8 @@ code block
 
 Solution[^2]:
 
+{% raw %}
+
 ```cpp
 {% assign openTag = '{%' %}
 
@@ -36,6 +38,8 @@ Solution[^2]:
 code block
 {{ openTag }} endraw %}
 ```
+
+{% endraw %}
 
 [^1]:<https://www.tomordonez.com/curly-braces-markdown-jekyll/>
 [^2]:
