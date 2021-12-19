@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kidneybean-beef.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://kidneybean-beef.github.io//" rel="alternate" type="text/html" /><updated>2021-12-19T00:38:30+00:00</updated><id>https://kidneybean-beef.github.io//feed.xml</id><title type="html">a bbb place</title><subtitle>one of Xin's bbb place </subtitle><author><name>LUO Xin</name></author><entry><title type="html">Blog Establishment</title><link href="https://kidneybean-beef.github.io//2021/12/18/blog-establish/" rel="alternate" type="text/html" title="Blog Establishment" /><published>2021-12-18T00:00:00+00:00</published><updated>2021-12-18T00:00:00+00:00</updated><id>https://kidneybean-beef.github.io//2021/12/18/blog-establish</id><content type="html" xml:base="https://kidneybean-beef.github.io//2021/12/18/blog-establish/">&lt;h2 id=&quot;how-i-build-this&quot;&gt;How I build this&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kidneybean-beef.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://kidneybean-beef.github.io//" rel="alternate" type="text/html" /><updated>2021-12-19T00:43:31+00:00</updated><id>https://kidneybean-beef.github.io//feed.xml</id><title type="html">a bbb place</title><subtitle>one of Xin's bbb place </subtitle><author><name>LUO Xin</name></author><entry><title type="html">Blog Establishment</title><link href="https://kidneybean-beef.github.io//2021/12/18/blog-establish/" rel="alternate" type="text/html" title="Blog Establishment" /><published>2021-12-18T00:00:00+00:00</published><updated>2021-12-18T00:00:00+00:00</updated><id>https://kidneybean-beef.github.io//2021/12/18/blog-establish</id><content type="html" xml:base="https://kidneybean-beef.github.io//2021/12/18/blog-establish/">&lt;h2 id=&quot;how-i-build-this&quot;&gt;How I build this&lt;/h2&gt;
 
 &lt;p&gt;First I forked this blog template from 
 Zhuang Ma
@@ -30,10 +30,14 @@ https://mazhuang.org/.&lt;/p&gt;
 
 &lt;p&gt;Solution&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openTag&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raw&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;{% raw %}&lt;/p&gt;
+
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openTag&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endraw&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
+
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;{% endraw %}&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;when using  in a code block inside {% raw %}, this md can not be built by Jekyll.&lt;/li&gt;
