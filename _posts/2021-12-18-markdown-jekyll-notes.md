@@ -26,7 +26,7 @@ code block
 Solution[^2]:
 
 ```cpp
-{% raw %}{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} raw %}
+{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} raw %}
 code block
 ```
 
