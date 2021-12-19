@@ -9,9 +9,26 @@ keywords: markdown, jekyll
 ## Curly Braces in Markdown with Jekyll
 
 Problem:
-when using braces in Markdown with Jekyll, the braces and the contents inside the braces will not show.
+
+1. when using braces in Markdown with Jekyll, the braces and the contents inside the braces will not show.
 
 Solution[^1]:
+
+
+{% assign openTag = '{%' %}
+{% raw %}
+
+```cpp
+{{ openTag }} raw %} 
+code block
+{{ openTag }} endraw %}
+```
+
+{% endraw %}
+
+2. when using {% raw %} in a code block inside {% raw %}, this md can not be built by Jekyll.
+
+Solution[^2]:
 
 {% raw %}
 {% assign openTag = '{%' %}
@@ -25,3 +42,4 @@ code block
 {% endraw %}
 
 [^1]:<https://www.tomordonez.com/curly-braces-markdown-jekyll/>
+[^2]:
