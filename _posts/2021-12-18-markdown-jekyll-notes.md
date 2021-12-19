@@ -25,15 +25,10 @@ code block
 
 Solution[^2]:
 
-{% raw %}
-
 ```cpp
-
 {% raw %}{%{% endraw %} raw %}{%{% raw %}{%{% endraw %} endraw %} raw %}
 code block
 ```
-
-{% endraw %}
 
 [^1]:<https://www.tomordonez.com/curly-braces-markdown-jekyll/>
 [^2]:
