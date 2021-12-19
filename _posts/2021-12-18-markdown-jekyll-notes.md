@@ -13,7 +13,8 @@ when using braces in Markdown with Jekyll, the braces and the contents inside th
 
 Solution[^1]:
 
-{% raw %}
+{% assign openTag = '{%' %}
+{{ openTag }} raw %}
 
 ```cpp
 {{ "{% raw " }}%} 
@@ -21,6 +22,6 @@ code block
 {{ "{% endraw " }}%}
 ```
 
-{% endraw %}
+{{ openTag }} endraw %}
 
 [^1]:<https://www.tomordonez.com/curly-braces-markdown-jekyll/>
