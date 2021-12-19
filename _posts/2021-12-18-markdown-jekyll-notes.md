@@ -14,15 +14,12 @@ Problem:
 
 Solution[^1]:
 
-{% raw %}
-
 ```yml
-{{ "{% raw " }}%}
+{% raw %}{%{% endraw %} raw %}
 code block
-{{ "{% endraw " }}%}
+{% raw %}{%{% endraw %} endraw %}
 ```
 
-{% endraw %}
 
 2. when using {% raw %} in a code block inside {% raw %}, this md can not be built by Jekyll.
 
