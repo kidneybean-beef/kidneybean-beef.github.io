@@ -19,9 +19,9 @@ Solution[^1]:
 {% raw %}
 
 ```cpp
-{{{ openTag }} raw %} 
+{{ openTag }} raw %} 
 code block
-{{{ openTag }} endraw %}
+{{ openTag }} endraw %}
 ```
 
 {% endraw %}
