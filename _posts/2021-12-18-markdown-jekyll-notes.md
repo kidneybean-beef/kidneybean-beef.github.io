@@ -15,15 +15,15 @@ Problem:
 Solution[^1]:
 
 {% assign openTag = '{%' %}
-{{ openTag }} raw %}
+{% raw %}
 
 ```cpp
-{% raw %}
+{{ openTag }} raw %}
 code block
-{% endraw %}
+{{ openTag }} endraw %}
 ```
 
-{{ openTag }} endraw %}
+{% endraw %}
 
 2. when using {% raw %} in a code block inside {% raw %}, this md can not be built by Jekyll.
 
