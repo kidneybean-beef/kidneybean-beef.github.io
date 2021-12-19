@@ -13,6 +13,7 @@ Problem:
 1. when using braces in Markdown with Jekyll, the braces and the contents inside the braces will not show.
 
 Solution[^1]:
+Enclose the code block in raw and endraw tags.
 
 ```cpp
 {% raw %}{%{% endraw %} raw %}
@@ -22,11 +23,12 @@ code block
 
 
 2. when using {% raw %} in a code block inside {% raw %}, this md can not be built by Jekyll.
-Put the first {% inside a raw tag, so escaping it avoids the rest being processed:
+
 Solution[^2]:
+Put the first {% inside a raw tag, so escaping it avoids the rest being processed:
 
 ```cpp
-{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} raw %}
+{% raw %}{%{% endraw %} endraw %} raw %}
 code block
 {% raw %}{%{% endraw %} raw %}{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} endraw %}
 ```
