@@ -22,14 +22,14 @@ code block
 
 
 2. when using {% raw %} in a code block inside {% raw %}, this md can not be built by Jekyll.
-
+Put the first {% inside a raw tag, so escaping it avoids the rest being processed:
 Solution[^2]:
 
 ```cpp
-{% raw %}{%{% endraw %} raw %}{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} raw %}
+{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} raw %}
 code block
 {% raw %}{%{% endraw %} raw %}{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} endraw %}
 ```
 
-[^1]:<https://www.tomordonez.com/curly-braces-markdown-jekyll/>
-[^2]:
+[^1]: <https://www.tomordonez.com/curly-braces-markdown-jekyll/>
+[^2]: <https://stackoverflow.com/questions/47106191/how-to-display-raw-and-endraw-using-markdown>
