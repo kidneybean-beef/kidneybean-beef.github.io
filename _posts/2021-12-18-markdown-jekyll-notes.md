@@ -15,7 +15,7 @@ Problem:
    Solution[^1]:
 Enclose the code block in raw and endraw tags.
 
-```cpp
+```yml
 {% raw %}{%{% endraw %} raw %}
 code block
 {% raw %}{%{% endraw %} endraw %}
@@ -27,7 +27,7 @@ code block
    Solution[^2]:
 Put the first {% raw %}{%{% endraw %} inside a raw tag, so escaping it avoids the rest being processed:
 
-```cpp
+```yml
 {% raw %}{%{% endraw %} endraw %} raw %}
 code block
 {% raw %}{%{% endraw %} raw %}{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} endraw %}
