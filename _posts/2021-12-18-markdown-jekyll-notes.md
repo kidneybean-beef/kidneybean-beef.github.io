@@ -30,12 +30,11 @@ Solution[^2]:
 
 {% raw %}
 
-```cpp
-{% assign openTag = '{%' %}
+```yml
 
-{{ openTag }} raw %}
+{{ "{{ "{% raw " }}%}" }}
 code block
-{{ openTag }} endraw %}
+{{ "{% endraw " }}%}
 ```
 
 {% endraw %}
