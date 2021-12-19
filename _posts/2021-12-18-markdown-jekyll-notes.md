@@ -14,13 +14,12 @@ Problem:
 
 Solution[^1]:
 
-{% assign openTag = '{%' %}
 {% raw %}
 
-```cpp
-{{ openTag }} raw %}
+```yml
+{{ "{% raw " }}%}
 code block
-{{ openTag }} endraw %}
+{{ "{% endraw " }}%}
 ```
 
 {% endraw %}
