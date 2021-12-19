@@ -15,9 +15,9 @@ Problem:
 Solution[^1]:
 
 ```cpp
-{% raw %}{%{% endraw %} raw %}
+{% raw %}{%{% endraw %} raw {% raw %}%}{% endraw %}
 code block
-{% raw %}{%{% endraw %} endraw %}
+{% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}
 ```
 
 
