@@ -14,6 +14,7 @@ Problem:
 
 Solution[^1]:
 
+{% raw %}
 {% assign openTag = '{%' %}
 
 ```cpp
@@ -21,11 +22,14 @@ Solution[^1]:
 code block
 {{ openTag }} endraw %}
 ```
+{% endraw %}
 
 2. when using {% raw %} in a code block inside {% raw %}, this md can not be built by Jekyll.
 
 Solution[^2]:
 
+{% raw %}
+
 ```cpp
 {% assign openTag = '{%' %}
 
@@ -33,6 +37,8 @@ Solution[^2]:
 code block
 {{ openTag }} endraw %}
 ```
+
+{% endraw %}
 
 [^1]:<https://www.tomordonez.com/curly-braces-markdown-jekyll/>
 [^2]:
