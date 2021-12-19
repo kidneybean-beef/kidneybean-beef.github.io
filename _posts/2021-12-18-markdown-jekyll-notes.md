@@ -15,9 +15,9 @@ Problem:
 Solution[^1]:
 
 ```cpp
-{% raw %}{%{% endraw %} raw {% raw %}%}{% endraw %}
+{% raw %}{%{% endraw %} raw %}
 code block
-{% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}
+{% raw %}{%{% endraw %} endraw %}
 ```
 
 
@@ -28,7 +28,7 @@ Solution[^2]:
 ```cpp
 {% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} raw %}
 code block
-{% raw %}{%{% endraw %} endraw {% raw %}%}{% endraw %}
+{% raw %}{%{% endraw %} raw %}{% raw %}{%{% endraw %}{% raw %}{%{% endraw %} endraw %} raw %}
 ```
 
 [^1]:<https://www.tomordonez.com/curly-braces-markdown-jekyll/>
